@@ -1,0 +1,11 @@
+.pic {
+    background-image: url("./nose.jpg");
+    position: relative;
+    height: 83%;
+}
+
+.text {
+    padding-top: 10%;
+    padding-left: 5%;
+    color: white;
+}

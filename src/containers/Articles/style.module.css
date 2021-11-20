@@ -1,0 +1,53 @@
+.body {
+    background-color: rgb(243, 243, 243) ;
+    position: relative;
+    height: 100%;
+}
+
+.name {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.imgs {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 90%;
+    z-index: 1;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 3.5em;
+  }
+.img1 {
+    position: absolute;
+    z-index: 3; 
+    width: 60%;
+    left: 20px;
+    top: 9em;
+  }
+.img2 {
+    position: absolute;
+    z-index: 2; 
+    width: 50%;
+    left: 46%;
+    top: -25px;
+    height: 20em;
+  }
+  
+.textbox {
+    position: absolute;
+    display:inline-block;
+    width: 50%;
+    height: 80%;
+    margin-right: 0;
+    text-align:justify;
+    padding-top: 10%;
+    margin-right: 10px;
+}
+
+.text {
+    padding-right: 7%;
+    padding-left: 5%; 
+    text-indent: 20px;
+}
